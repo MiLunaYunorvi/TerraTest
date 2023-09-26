@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "MILUNADEV"
+  # cloud {
+  #   organization = "MILUNADEV"
 
-     workspaces {
-      name = "AWSWorkspace"
-    }
-  }
+  #    workspaces {
+  #     name = "AWSWorkspace"
+  #   }
+  # }
 
   required_providers {
     aws = {
@@ -67,7 +67,7 @@ variable "Nombres" {
 
 
 
-resource "aws_instance" "VM1" {
+resource "aws_instance" "VM12" {
     ami           = "ami-024e6efaf93d85776"
     instance_type = "t2.micro"
    tags = {

@@ -16,5 +16,5 @@
 # }
 
 output "privateIP" {
-    value = aws_instance.VM1.private_ip
+    value = aws_instance.VM12.private_ip
 }
