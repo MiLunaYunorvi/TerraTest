@@ -71,7 +71,7 @@ resource "aws_instance" "VM12" {
     ami           = "ami-024e6efaf93d85776"
     instance_type = "t2.micro"
    tags = {
-     Name = var.instance_name2
+     Name = var.instance_name
    }
 
 }
