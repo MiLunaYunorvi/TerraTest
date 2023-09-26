@@ -26,9 +26,10 @@ data "aws_vpc" "defaultVPC" {
 
 variable "instanceName"{
         type = string
+        default = "MAQUINAVM"
     validation {
       condition = length(var.instanceName) > 6
-      error_message = "Debe tener mas de 6 caracteres"
+      error_message = "Debe tener mas de 6 caracteres."
     }
 }
 variable "instance_type" {
