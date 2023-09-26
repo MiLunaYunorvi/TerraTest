@@ -37,9 +37,9 @@ variable "instance_type" {
 variable "instance_name" {
   type = string
 }
-variable "instance_name2" {
-  type = string
-}
+# variable "instance_name2" {
+#   type = string
+# }
 
 variable "VMnombres" {
   type = map
