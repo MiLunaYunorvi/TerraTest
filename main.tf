@@ -37,9 +37,7 @@ variable "instance_type" {
 variable "instance_name" {
   type = string
 }
-# variable "instance_name2" {
-#   type = string
-# }
+
 
 variable "VMnombres" {
   type = map
@@ -67,7 +65,7 @@ variable "Nombres" {
 
 
 
-resource "aws_instance" "VM12" {
+resource "aws_instance" "VM1" {
     ami           = "ami-024e6efaf93d85776"
     instance_type = "t2.micro"
    tags = {
