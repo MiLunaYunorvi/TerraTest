@@ -1,12 +1,12 @@
 terraform {
 
-  # cloud {
-  #   organization = "MILUNADEV"
+  cloud {
+    organization = "MILUNADEV"
 
-  #    workspaces {
-  #     name = "AWSWorkspace"
-  #   }
-  # }
+     workspaces {
+      name = "AWSWorkspace"
+    }
+  }
 
   required_providers {
     aws = {
